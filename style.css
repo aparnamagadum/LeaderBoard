@@ -1,0 +1,142 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color:green;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+  }
+  
+  h1 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-variant: small-caps;
+  }
+  
+  #con {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #con input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #3a3a56;
+    color: #fff;
+  }
+  
+  #con button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #con button:hover {
+    background-color: #0056b3;
+  }
+  
+  #section {
+    /* width: 80%;
+      min-width: 984px; */
+    min-width: 70%;
+    background-color: yellowgreen;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapperProfile {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .button_group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: yellowgreen;
+    padding: 0px 30px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 5px solid rgb(73, 66, 66);
+  }
+  .button_group :hover{
+      transform: scale(1.2);
+    
+  }
+  
+  .button_group span {
+    font-size: 16px;
+    color: #fff;
+    margin: 0 10px;
+    font-style: italic;
+      font-family: cursive;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: cadetblue;
+      padding: 7px;
+      
+  }
+  
+  
+  .button_group button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button_group .del{
+      background-color: #b4b4b4;
+      color: #000;
+  }
+  
+  .button_group .del:hover {
+      background-color: #000000;
+      color: #ffffff;
+    
+  }
+  
+  .button_group .but1 {
+    background-color: red;
+    color: white;
+  }
+  
+  .button_group .but1:hover {
+    background-color:red;
+  }
+  
+  .button_group .but2 {
+    background-color:green;
+    color: white;
+  }
+  
+  .button_group .but2:hover {
+    background-color:green;
+  }
+  
+  .rank {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffd700;
+  }
+  
